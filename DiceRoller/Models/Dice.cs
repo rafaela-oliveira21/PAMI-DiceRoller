@@ -1,9 +1,8 @@
-﻿
-namespace DiceRoller
+﻿namespace DiceRoller.Models
 {
     public class Dice
     {
-        
+
         /*
         int lados;
         int numeracao;
@@ -41,7 +40,7 @@ namespace DiceRoller
             //Gero um numero aleatório de 1 a 6
             Random random = new Random();
             //Jogo esse número na face para cima
-            FaceParaCima = random.Next(1,QuantidadeDeFaces + 1);
+            FaceParaCima = random.Next(1, QuantidadeDeFaces + 1);
             //FaceParaBaixo = random.Next(1, 7);  -- Método mais simples mesma usabilidade do método de cima
             // A soma mágica = o menor lado possível + o maior
             // A soma mágica = 1 + quantidadeDeFaces
@@ -53,4 +52,3 @@ namespace DiceRoller
     }
 }
 
-    

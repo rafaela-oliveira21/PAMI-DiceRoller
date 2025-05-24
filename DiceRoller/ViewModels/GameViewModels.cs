@@ -1,0 +1,29 @@
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DiceRoller.ViewModels
+{
+    //Inserido o public e o partial
+    public partial class GameViewModels : ObservableObject //É nescessário importar,instalar npvamente para funcionar.
+    {
+        //Toda classe na ViewModel vai ser parcial
+        // Toolkit serve como get e set, por isso usamos "[ObservableProperty]"
+        //Notifica a classe Observable
+        //
+
+        [ObservableProperty]
+        public string diceImage; //Variável tipo string para adcionar uma imagem
+
+        [ObservableProperty]
+        public string nomeUsuario;
+
+        public GameViewModels() {
+            diceImage = "dice1.png";
+            NomeUsuario = "Eu";
+        }
+    }
+}

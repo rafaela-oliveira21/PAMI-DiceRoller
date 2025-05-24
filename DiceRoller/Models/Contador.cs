@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DiceRoller
+namespace DiceRoller.Models
 {
     internal class Contador
     {
@@ -35,7 +35,6 @@ namespace DiceRoller
                 Venceu = "Não";
                 Sequencia = 0;
             }
-
         }
     }
 }
