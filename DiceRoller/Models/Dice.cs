@@ -2,23 +2,6 @@
 {
     public class Dice
     {
-
-        /*
-        int lados;
-        int numeracao;
-        int numeroSorteado;
-
-        public Dice(int quantidadeDeLados) { 
-            lados = quantidadeDeLados;
-        }
-        public int Rolar()
-        {
-            numeroSorteado = new Random().Next(1, lados + 1);
-            return numeroSorteado;
-        }
-        */
-
-
         //property
         //Atributos - utilizamos property nesse caso. (public tipo Nome)
         public int FaceParaBaixo;
@@ -35,6 +18,9 @@
         }
 
         //Método responsável por sortear um número
+        /// <summary>
+        /// Método utilizado para sortear um dado
+        /// </summary>
         public void Sortear()
         {
             //Gero um numero aleatório de 1 a 6
@@ -47,6 +33,21 @@
             FaceParaBaixo = QuantidadeDeFaces + 1 - FaceParaCima;
             //Jogo um número na face para cima
             //Calcular a face para baixo
+            
+            /*
+            int lados;
+            int numeracao;
+            int numeroSorteado;
+
+            public Dice(int quantidadeDeLados) { 
+                lados = quantidadeDeLados;
+            }
+            public int Rolar()
+            {
+                numeroSorteado = new Random().Next(1, lados + 1);
+                return numeroSorteado;
+            }
+            */
         }
 
     }

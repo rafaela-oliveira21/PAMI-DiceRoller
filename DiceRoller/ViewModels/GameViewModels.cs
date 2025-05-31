@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using DiceRoller.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,7 @@ namespace DiceRoller.ViewModels
         //Toda classe na ViewModel vai ser parcial
         // Toolkit serve como get e set, por isso usamos "[ObservableProperty]"
         //Notifica a classe Observable
-        //
+
 
         [ObservableProperty]
         public string diceImage; //Variável tipo string para adcionar uma imagem
@@ -21,9 +22,32 @@ namespace DiceRoller.ViewModels
         [ObservableProperty]
         public string nomeUsuario;
 
+        [ObservableProperty]
+        public int selectValue;
+
         public GameViewModels() {
             diceImage = "dice1.png";
             NomeUsuario = "Eu";
         }
+
+        public void Jogar()
+        {
+            //Sortear um dado
+            Dice dice = new Dice();                    //Instanciou um novo dado
+            dice.Sortear();
+            if ( dice.FaceParaCima == SelecteValue) //posso usar em qualquer situação
+            {
+
+            }
+
+            //Verificar qual face está selecionada
+            //Verificar se o usuário escolheu certo
+            //Exibir uma mensagem na tela 
+
+        }
+
+
+
     }
+
 }
