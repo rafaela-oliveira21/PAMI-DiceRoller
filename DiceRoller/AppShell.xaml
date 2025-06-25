@@ -9,9 +9,7 @@
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:GameView}" 
+        ContentTemplate="{DataTemplate local:GameView}"
         Route="MainPage" />
-        <!--Muita atenção quando for mudar o nome da MainPage, verifivar se...-->
-        <!-- o nome da página de DiceRoller está alterado para DiceRoller.Views-->
 
 </Shell>
