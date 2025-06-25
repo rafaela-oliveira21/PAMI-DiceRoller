@@ -1,12 +1,12 @@
-using DiceRoller.ViewModels;
-
 namespace DiceRoller.Views;
+
+using DiceRoller.ViewModels;
 
 public partial class GameView : ContentPage
 {
 	public GameView()
 	{
-		BindingContext = new GameViewModel();
 		InitializeComponent();
+		BindingContext = new GameViewModel(); 
 	}
 }
