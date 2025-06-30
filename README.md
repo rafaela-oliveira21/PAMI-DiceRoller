@@ -1,6 +1,4 @@
-PAM - Aula 10 - DiceRoller
-
-# 🎲 DiceRoller
+# 🎲 DiceRoller - PAM - Aula 10
 
 ![Badge de Status](https://img.shields.io/badge/status-Concluído-brightgreen)
 ![Badge de Plataforma](https://img.shields.io/badge/plataforma-.NET%20MAUI-blue)
@@ -8,8 +6,7 @@ PAM - Aula 10 - DiceRoller
 
 ## ✨ Descrição
 
-O **DiceRoller** é um aplicativo simples e intuitivo desenvolvido com **C# e .NET MAUI** no Visual Studio.  
-Ele simula o lançamento de um dado, exibindo o resultado de forma visual e interativa.
+O **DiceRoller** simula o lançamento de um dado, exibindo o resultado de forma visual.
 
 ---
 
