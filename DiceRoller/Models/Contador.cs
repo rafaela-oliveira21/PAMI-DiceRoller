@@ -1,22 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System;
 
 namespace DiceRoller.Models
 {
     internal class Contador
     {
         public int Sequencia;
+        public string Venceu;
         public int Pontos;
         public int Limite;
-        public string Venceu;
 
         public void Jogar(Dice DadoJogador, int numeroSelecionado)
         {
-
             //Comparar se o selecionado é igual a facePraCima do dado do jogador
             if (numeroSelecionado == DadoJogador.FaceParaCima)
             {

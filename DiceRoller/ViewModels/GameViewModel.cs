@@ -1,11 +1,11 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-using DiceRoller.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using DiceRoller.Models;
+using System.Linq;
+using System.Text;
+using System;
 
 namespace DiceRoller.ViewModels
 {
