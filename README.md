@@ -40,4 +40,4 @@ O **DiceRoller** simula o lançamento de um dado, exibindo o resultado de forma 
 ### 📥 Clonar o Repositório
 
 ```bash
-git clone https://github.com/SEU_USUARIO/DiceRoller.git
+git clone https://github.com/rafaela-oliveira21/PAMI-DiceRoller.git
