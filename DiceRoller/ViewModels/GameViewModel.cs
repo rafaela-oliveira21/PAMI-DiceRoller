@@ -1,11 +1,11 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-using DiceRoller.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using DiceRoller.Models;
+using System.Linq;
+using System.Text;
+using System;
 
 namespace DiceRoller.ViewModels
 {
@@ -40,12 +40,8 @@ namespace DiceRoller.ViewModels
 
         private Sequencia jogo;
 
-
-
-
         public GameViewModel()
         {
-
             DiceImage = "dado_1.PNG";
             App = "Sorteio de dados";
             JogarCommand = new Command(Jogar);
@@ -71,16 +67,16 @@ namespace DiceRoller.ViewModels
             DiceImage = "dado_" + dice.FaceParaCima + ".PNG";
             TotalOppositeSide += dice.FaceParaBaixo;
 
-            /*
-            if (dice.FaceParaCima == SelectedValue)
-            {
-                Resultado = "Vitoria!!!!";
-            }
-            else
-            {
-                Resultado = "Derrota!!";
-            }
-          */
+                    /*
+                    if (dice.FaceParaCima == SelectedValue)
+                    {
+                        Resultado = "Vitoria!!!!";
+                    }
+                    else
+                    {
+                        Resultado = "Derrota!!";
+                    }
+                  */
 
             int numeroEscolhidoReal = SelectedValue + 1;
 
@@ -94,14 +90,8 @@ namespace DiceRoller.ViewModels
                 Resultado = "Que pena: Você perdeu!";
             }
 
-
             PlayerPoint = jogo.PlayerPoint;
             Streak = jogo.Streak;
-
-
         }
-
-
-
     }
 }
