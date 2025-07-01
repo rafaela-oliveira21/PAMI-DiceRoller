@@ -18,24 +18,23 @@ O **DiceRoller** simula o lançamento de um dado, exibindo o resultado de forma 
 
 ---
 
-## 🎯 Funcionalidades
+<!--## 🎯 Funcionalidades
+## 🚀 Como Executar o Projeto
 
 ✅ Simula o lançamento de um dado aleatório  
 ✅ Atualiza o resultado na tela  
 ✅ Interface amigável e responsiva  
 ✅ Compatível com diferentes plataformas suportadas pelo .NET MAUI
-
 ---
+-->
 
 ## 🖼️ Demonstração
 
-*(Adicione aqui a imagem ou gif mostrando o app rodando)*
-
-![Demonstração do DiceRoller](LINK_DA_IMAGEM_AQUI)
+![{40330F91-0397-4145-ABB1-2F2A40261249}](https://github.com/user-attachments/assets/91b252f1-2cda-4b6e-8b0f-9c17a361219b)
+![{2EF02308-BEFA-471B-B239-462925C54EE5}](https://github.com/user-attachments/assets/089bb82b-6f56-470f-b7de-2770f22ec92a)
+![{AC186197-5607-4812-9ABA-6FFA26B5F7BE}](https://github.com/user-attachments/assets/8ae7512f-df98-4104-80a0-9f1770da062a)
 
 ---
-
-## 🚀 Como Executar o Projeto
 
 ### 📥 Clonar o Repositório
 
